@@ -35,19 +35,20 @@ html {
     height: 100%;
     z-index: -1;
     background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-darker) 100%);
-    background-image: url('assets/background.jpg');
+    background-image: url('../assets/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.1; /* Adjust between 0.05 to 0.2 for very low opacity */
+    opacity: 0.1; 
 }
+
 
 /* Header & Navigation */
 header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgb(26, 26, 46),0.5;
+    background: rgba(26, 26, 46, 0.5);
     backdrop-filter: blur(15px);
     z-index: 1000;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
